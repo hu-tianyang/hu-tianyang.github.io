@@ -6,7 +6,7 @@ subtitle: Researcher at <a href='http://dev3.noahlab.com.hk'>Huawei Noah's Ark L
 
 profile:
   align: right
-  image: cartoon.jpg
+  image: pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
 
