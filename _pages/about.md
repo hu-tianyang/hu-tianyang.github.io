@@ -21,6 +21,8 @@ I obtained my Ph.D. in Statistics from Purdue University in 2020, under the supe
 
 My research interests includes Statistical Deep Learning, Nonparametric Estimation, Deep Generative Models, Representation Learning.
 
+**Hiring**: I am looking for research interns in Huawei Noah’s Ark Lab with strong Machine Learning/Deep Learning background. If you are interested in **deep generative models** or understanding **large language models**, please drop me an email. 
+
 <!-- You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically. -->
