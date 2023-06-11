@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Researcher at <a href='http://dev3.noahlab.com.hk'>Huawei Noah's Ark Lab</a>.
 
@@ -21,7 +21,8 @@ I obtained my Ph.D. in Statistics from Purdue University in 2020, under the supe
 
 My research interests includes Statistical Deep Learning, Nonparametric Estimation, Deep Generative Models, Representation Learning.
 
-**Hiring**: I am looking for research interns in Huawei Noah’s Ark Lab with strong Machine Learning/Deep Learning background. If you are interested in **deep generative models** or understanding **large language models**, please drop me an email. 
+**Hiring**: I am looking for research interns at our lab with a strong machine learning/deep learning background. If you are interested in 
+<u>deep generative models</u> or understanding <u>large language models</u>, please drop me an email. 
 
 <!-- You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
 
