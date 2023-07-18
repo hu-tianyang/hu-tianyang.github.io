@@ -11,19 +11,19 @@ profile:
   address: >
 
 news: true  # includes a list of news items
-latest_posts: False  # includes a list of the newest posts
+latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a researcher at the AI Theory Group of Huawei Noah’s Ark Lab. 
+I am a researcher at the AI Theory Group of Huawei Noah’s Ark Lab.
 I obtained my Ph.D. in Statistics from Purdue University in 2020, under the supervision of Prof. [Guang Cheng](http://www.stat.ucla.edu/~guangcheng/). Before that, I received my Master's degree in Statistics from the University of Chicago and Bachelor’s degree in Math from Tsinghua University. 
 
-My research aims to provide more theorectical understanding to the empirical success of deep learning. I am particularly interested in:
+My research aims to advance the theorectical understanding of deep learning and develop theory-inspired new algorithms. I am particularly interested in:
 <ul>
   <li>Statistical Learning</li> 
-  <li>Deep Generative Models</li>
   <li>Representation Learning</li>
+  <li>Deep Generative Models</li>
 </ul>
 
 **Hiring**: I am looking for research interns at our lab with a strong machine learning/deep learning background. If you are interested in 

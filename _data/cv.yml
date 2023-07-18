@@ -6,19 +6,19 @@
       institution: Purdue University, West Lafayette, IN, US
       year: 2020
       description:
-        - "Advisor: Guang Cheng"
+        - "Advisor: Prof. <a href='http://www.stat.ucla.edu/~guangcheng/'>Guang Cheng</a>"
         - "Thesis: Nonparametric Perspective of Deep Learning"
     - title: M.S. in Statistics
       institution: University of Chicago, Chicago, IL, US
       year: 2016
       description:
-        - "Advisor: Wei Biao Wu"
+        - "Advisor: Prof. <a href='https://stat.uchicago.edu/people/profile/wei-biao-wu/'>Wei Biao Wu</a>"
         - "Thesis: Large Scale Multiple Testing for Clustered Signals"
     - title: B.S. in Math
       institution: Tsinghua University, Beijing, China
       year: 2014
       description: 
-        - Advised by Zhongyi Huang
+        - Advised by Prof. <a href='https://www.math.tsinghua.edu.cn/info/1125/1620.htm'>Zhongyi Huang</a>
 
 - title: Experience
   type: time_table
@@ -31,7 +31,7 @@
     - title: Visiting Research Associate
       institution: Statistical and Applied Mathematical Sciences Institute (SAMSI)
       year: Fall 2019
-      description:
+      description: Hosted by Prof. <a href='https://www2.stat.duke.edu/~banks/'>David Banks</a>
 
     - title: Student Consultant
       institution: Statistical Consulting Service of Purdue University
