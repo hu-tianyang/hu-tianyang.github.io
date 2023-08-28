@@ -17,16 +17,16 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I am a researcher at the AI Theory Group of Huawei Noah’s Ark Lab.
-I obtained my Ph.D. in Statistics from Purdue University in 2020, under the supervision of Prof. [Guang Cheng](http://www.stat.ucla.edu/~guangcheng/). Before that, I received my Master's degree in Statistics from the University of Chicago and Bachelor’s degree in Math from Tsinghua University. 
+I obtained my Ph.D. in Statistics from Purdue University, under the supervision of Prof. [Guang Cheng](http://www.stat.ucla.edu/~guangcheng/). Before that, I received my M.S. in Statistics from the University of Chicago and B.S. in Math from Tsinghua University. 
 
-My research aims to advance the theorectical understanding of deep learning and develop theory-inspired new algorithms. I am particularly interested in:
+My research aims to advance the theoretical understanding of deep learning and develop theory-inspired new algorithms. I am particularly interested in:
 <ul>
   <li>Statistical Learning</li> 
   <li>Representation Learning</li>
   <li>Deep Generative Models</li>
 </ul>
 
-**Hiring**: I am looking for research interns at our lab with a strong machine learning/deep learning background. If you are interested in 
+**Hiring**: I am looking for research interns with a strong machine learning/deep learning background. If you are interested in 
 <u>deep generative models</u> or understanding <u>large language models</u>, please drop me an email. 
 
 <!-- You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
