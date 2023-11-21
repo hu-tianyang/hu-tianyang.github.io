@@ -24,7 +24,7 @@ My research aims to advance the theoretical understanding of deep learning and d
   <li>Statistical Learning</li> 
   <li>Representation Learning</li>
   <li>Deep Generative Modeling</li>
-  <li>Understanding Large Laugange Models</li>
+  <li>Understanding Large Language Models</li>
 </ul>
 
 **Hiring**: I am looking for research interns with a strong machine learning/deep learning background. If you are interested in 
