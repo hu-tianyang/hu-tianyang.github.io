@@ -23,10 +23,15 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Postdoc 
+      institution: National University of Singapore
+      year: 2024 - now
+      description: Hosted by Prof. <a href='https://ml.comp.nus.edu.sg/'>Kenji Kawaguchi</a>
+      
     - title: Research Scientist 
       institution: AI Theory Group, Huawei Noah's Ark Lab
-      year: 2021 - now
-      description:
+      year: 2021 - 2024
+      description: 
 
     - title: Visiting Research Associate
       institution: Statistical and Applied Mathematical Sciences Institute (SAMSI)
