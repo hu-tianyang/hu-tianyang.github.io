@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Researcher at <a href='http://dev3.noahlab.com.hk'>Huawei Noah's Ark Lab</a>.
+subtitle: Postdoc at <a href='https://ml.comp.nus.edu.sg/'>National University of Singapore</a>.
 
 profile:
   align: right
@@ -16,19 +16,19 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a researcher at the AI Theory Group of Huawei Noah’s Ark Lab.
-I obtained my Ph.D. in Statistics from Purdue University, under the supervision of Prof. [Guang Cheng](http://www.stat.ucla.edu/~guangcheng/). Before that, I received my M.S. in Statistics from the University of Chicago and B.S. in Math from Tsinghua University. 
+I am a Postdoc at the University of Singapore, working with Prof. [Kenji Kawaguchi](https://ml.comp.nus.edu.sg/). I am currently on the job market for tenure-track positions starting in Fall 2025.
+Previously, I was a research scientist at the AI Theory Group of [Huawei Noah’s Ark Lab](http://dev3.noahlab.com.hk/). 
+I earned my Ph.D. in Statistics from Purdue University, under the supervision of Prof. [Guang Cheng](http://www.stat.ucla.edu/~guangcheng/). Prior to that, I completed my M.S. in Statistics from the University of Chicago and B.S. in Math from Tsinghua University. 
 
-My research aims to advance the theoretical understanding of deep learning and develop theory-inspired new algorithms. I am particularly interested in:
+My research interests lie in the intersection of Statistics and AI, with the aim of advancing the theoretical under-
+standing of AI and developing theory-inspired new algorithms. 
+I am particularly interested in:
 <ul>
-  <li>Statistical Learning</li> 
+  <li>Statistical Machine Learning</li> 
   <li>Representation Learning</li>
   <li>Deep Generative Modeling</li>
   <li>Understanding Large Language Models</li>
 </ul>
-
-**Hiring**: I am looking for research interns with a strong machine learning/deep learning background. If you are interested in 
-<u>deep generative models</u> or understanding <u>large language models</u>, please drop me an email. 
 
 <!-- You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
 
