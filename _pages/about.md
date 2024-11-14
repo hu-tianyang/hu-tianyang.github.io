@@ -21,8 +21,7 @@ I am a Postdoc at the University of Singapore, working with Prof. [Kenji Kawaguc
 Previously, I was a research scientist at the AI Theory Group of [Huawei Noah’s Ark Lab](http://dev3.noahlab.com.hk/). 
 I earned my Ph.D. in Statistics from Purdue University, under the supervision of Prof. [Guang Cheng](http://www.stat.ucla.edu/~guangcheng/). Prior to that, I completed my M.S. in Statistics from the University of Chicago and B.S. in Math from Tsinghua University. 
 
-My research interests lie in the intersection of Statistics and AI, with the aim of advancing the theoretical under-
-standing of AI and developing theory-inspired new algorithms. 
+My research interests lie in the intersection of Statistics and AI, with the aim of advancing the theoretical understanding of AI and developing theory-inspired new algorithms. 
 I am particularly interested in:
 <ul>
   <li>Statistical Machine Learning</li> 
