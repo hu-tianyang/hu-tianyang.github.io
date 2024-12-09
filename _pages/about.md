@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Postdoc at <a href='https://ml.comp.nus.edu.sg/'>National University of Singapore</a>. Incoming Assistant Professor at [CUHK-Shenzhen](https://sds.cuhk.edu.cn/en).
+subtitle: Postdoc at <a href='https://ml.comp.nus.edu.sg/'>National University of Singapore</a>. Incoming Assistant Professor at <a href='https://sds.cuhk.edu.cn/en'>CUHK-Shenzhen</a>.
 
 profile:
   align: right
