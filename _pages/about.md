@@ -16,12 +16,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Postdoc at the National University of Singapore, working with Prof. [Kenji Kawaguchi](https://ml.comp.nus.edu.sg/). In Fall 2025, I will join the [School of Data Science](https://sds.cuhk.edu.cn/en) at the Chinese University of Hong Kong, Shenzhen as an Assistant Professor.
+I am a Postdoc at the National University of Singapore, working with Prof. [Kenji Kawaguchi](https://ml.comp.nus.edu.sg/). In Fall 2025, I will join the [School of Data Science](https://sds.cuhk.edu.cn/en) at the Chinese University of Hong Kong, Shenzhen as an Assistant Professor. 
 
 Previously, I was a research scientist at the AI Theory Group of [Huawei Noah’s Ark Lab](http://dev3.noahlab.com.hk/). 
 I earned my Ph.D. in Statistics from Purdue University, under the supervision of Prof. [Guang Cheng](http://www.stat.ucla.edu/~guangcheng/). Prior to that, I completed my M.S. in Statistics from the University of Chicago and B.S. in Math from Tsinghua University. 
 
-My research interests lie in the intersection of Statistics and AI, with the aim of advancing the theoretical understanding of AI and developing theory-inspired new algorithms. 
+My research interests lie in the intersection of <li>Statistics and AI</li>, with the aim of advancing the theoretical understanding of AI and developing theory-inspired new algorithms. 
 I am particularly interested in:
 <ul>
   <li>Statistical Machine Learning</li> 
@@ -29,6 +29,10 @@ I am particularly interested in:
   <li>Deep Generative Modeling</li>
   <li>Understanding Large Language Models</li>
 </ul>
+
+This was my <a href="/assets/pdf/Research_Statement.pdf">Research Statement</a>. 
+I am actively seeking <li>PhD students</li> and <li>Research Assistants</li> (starting from Fall 2025) with a strong theoretical foundation and hands-on experience in AI to join my group.
+If you are interested, please send me an email with you CV.
 
 <!-- You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
 
