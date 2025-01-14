@@ -32,7 +32,7 @@ I am particularly interested in:
 
 This was my <a href="/assets/pdf/Research_Statement.pdf">Research Statement</a>.
 I am actively seeking <b>PhD students</b> and <b>Research Assistants</b> (starting from Fall 2025) with a strong theoretical foundation and hands-on experience in AI to join my group.
-If you are interested, please send me an (email)[mailto:hutianyang.up@outlook.com] with your CV.
+If you are interested, please send me an [email](mailto:hutianyang.up@outlook.com) with your CV.
 
 <!-- You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
 
