@@ -1,4 +1,3 @@
-
 - title: Education
   type: time_table
   contents:
@@ -17,21 +16,21 @@
     - title: B.S. in Math
       institution: Tsinghua University, Beijing, China
       year: 2014
-      description: 
+      description:
         - Advised by Prof. <a href='https://www.math.tsinghua.edu.cn/info/1125/1620.htm'>Zhongyi Huang</a>
 
 - title: Experience
   type: time_table
   contents:
-    - title: Postdoc 
+    - title: Postdoc
       institution: National University of Singapore
       year: 2024 - now
       description: Hosted by Prof. <a href='https://ml.comp.nus.edu.sg/'>Kenji Kawaguchi</a>
-      
-    - title: Research Scientist 
+
+    - title: Research Scientist
       institution: AI Theory Group, Huawei Noah's Ark Lab
       year: 2021 - 2024
-      description: 
+      description:
 
     - title: Visiting Research Associate
       institution: Statistical and Applied Mathematical Sciences Institute (SAMSI)
@@ -42,35 +41,3 @@
       institution: Statistical Consulting Service of Purdue University
       year: 2017-2018
       description:
-
-# - title: Open Source Projects
-#   type: time_table
-#   contents:
-#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-#       year: 2015-now
-#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-# - title: Honors and Awards
-#   type: time_table
-#   contents:
-#     - year: 2018
-#       items: 
-#         - 1st Place in Yale DataHack Competition, Yale University
-
-
-# - title: Academic Interests
-#   type: nested_list
-#   contents:
-#     - title: Topic 1.
-#       items: 
-#         - Description 1.
-#         - Description 2.
-#     - title: Topic 2.
-#       items:
-#         - Description 1.
-#         - Description 2.
-
-# - title: Other Interests
-#   type: list
-#   contents:
-#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.

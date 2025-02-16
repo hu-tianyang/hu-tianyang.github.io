@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I started a postdoctoral position at the National University of Singapore, working with Prof. Kenji Kawaguchi. 
+I started a postdoctoral position at the National University of Singapore, working with Prof. Kenji Kawaguchi.

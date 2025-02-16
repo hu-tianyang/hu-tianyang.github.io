@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Two papers on generative modeling are accepted to NeurIPS 2023, including one <b>Spotlight<b> &#128294; 
+Two papers on generative modeling are accepted to NeurIPS 2023, including one <b>Spotlight<b> &#128294;
