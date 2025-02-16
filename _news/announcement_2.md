@@ -1,33 +1,24 @@
 ---
 layout: post
-title: A long announcement with details
-date: 2015-11-07 16:11:00-0400
+title: Invited talk @ Center for Statistical Science, Tsinghua University
+date: 2023-07-07 16:10:00-0400
 inline: false
 related_posts: false
 ---
 
-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
+Thanks Dr. <a href="https://sites.google.com/site/qianlincd/">Qian Lin</a> for inviting me! 
 
----
+The title of my talk is <b>Towards A Statistical Understanding of Neural Network Classifiers</b>, which incorporates 3 of my recent works. 
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+***
+<b>Abstract:</b> Deep learning has made remarkable empirical strides in large-scale classification problems, yet a comprehensive statistical understanding remains elusive. Viewing classification as an estimation problem, there are two primary targets: the <b>conditional probability</b> and the <b>decision boundary</b>. Within each setting, we review the basic assumptions and classic results and present some recent advances in understanding neural network classifiers. 
 
-#### Hipster list
+(1) In the smooth conditional probability setting, we establish fast—though not optimal—convergence rates for overparametrized ReLU neural networks (in the neural tangent kernel regime) trained with square loss. When the classes are separable with a positive margin, the misclassification rate improves to be exponentially fast and the resulting margin is lower bounded away from zero.
 
-<ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
-    <li>messenger bag</li>
-</ul>
+(2.1) In the smooth decision boundary setting, we shed light on the rate-suboptimal of existing neural network classification literature by investigating a novel localized version of the classical Tsybakov's noise condition, under which statistical optimality can be attained utilizing the divide-and-conquer technique.  
 
-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan.
+(2.2) We advocate studying the boundary complexity of classifiers and propose an explicit method for counting the boundary pieces of ReLU classifiers. Intriguingly, the boundary complexity behaves very differently than functional complexities and exhibits a negative correlation to classification robustness. 
 
----
+Here are the <a href="/assets/pdf/Towards A Statistical Understanding of Neural Network Classifiers.pdf">slides</a> of the talk. 
 
-Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.
-
-> We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-> —Anais Nin
-
-Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
+<!-- <img src="assets/img/WechatIMG259-1.png" alt="Italian Trulli"> -->
