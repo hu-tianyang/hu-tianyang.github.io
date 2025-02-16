@@ -39,6 +39,6 @@ I am particularly interested in:
   <li>Understanding Large Language Models</li>
 </ul>
 
-This is my latest <a href="assets/pdf/Research_Statement.pdf">Research Statement</a>.
+This is my latest <a href="/assets/pdf/Research_Statement.pdf">Research Statement</a>.
 I am actively seeking <b>PhD students</b> and <b>Research Assistants</b> (starting from Fall 2025) with a strong theoretical foundation and hands-on experience in AI to join my group.
 If you are interested, please send me an [email](mailto:hutianyang.up@outlook.com) with your CV.
