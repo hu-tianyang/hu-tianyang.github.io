@@ -39,6 +39,5 @@ I am particularly interested in:
   <li>Understanding Large Language Models</li>
 </ul>
 
-This is my latest <a href="/assets/pdf/Research_Statement.pdf">Research Statement</a>.
-I am actively seeking <b>[PhD students](https://sds.cuhk.edu.cn/en/phd-programmes)</b> and <b>Research Assistants</b> (starting from Fall 2025) with a strong theoretical foundation and hands-on experience in AI to join my group.
+I am actively seeking <b>[PhD students](https://sds.cuhk.edu.cn/en/phd-programmes)</b> and <b>Research Assistants</b> with a strong theoretical foundation and hands-on experience in AI to join my group.
 If you are interested, please send me an [email](mailto:hutianyang.up@outlook.com) with your CV.
