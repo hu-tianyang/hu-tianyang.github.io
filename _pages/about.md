@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Incoming Assisstant Professor, <a href="https://sds.cuhk.edu.cn/en">School of Data Science</a>, CUHK-Shenzhen.
+subtitle: Incoming Assisstant Professor, <a href="https://sds.cuhk.edu.cn/en">School of Data Science</a> & <a href="https://sai.cuhk.edu.cn/en">School of Artificial Intelligence</a>, CUHK-Shenzhen.
 
 profile:
   align: right
@@ -36,8 +36,7 @@ I am particularly interested in:
   <li>Statistical Machine Learning</li> 
   <li>Representation Learning</li>
   <li>Deep Generative Modeling</li>
-  <li>Understanding Large Language Models</li>
 </ul>
 
-I am actively seeking <b>[PhD students](https://sds.cuhk.edu.cn/en/phd-programmes)</b> and <b>Research Assistants</b> with a strong theoretical foundation and hands-on experience in AI to join my group.
+I am actively seeking <b>PhD/MPhil students</b> and <b>research assistants</b> with a strong theoretical foundation and hands-on experience in AI to join my group.
 If you are interested, please send me an [email](mailto:hutianyang.up@outlook.com) with your CV.
