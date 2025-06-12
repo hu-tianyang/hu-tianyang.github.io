@@ -1,6 +1,7 @@
-#### To Prospective Students 
+#### To Prospective Students
 
 There remains a significant gap between what modern AI systems can do and what we truly understand about them. My research group aims to help close this gap from two directions:
+
 - **Bottom-up**: building theoretical foundations and first principles for AI. 
 - **Top-down**: analyzing state-of-the-art methods and propose theory-inspired new algorithms. 
 
