@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am currently a Postdoc at the National University of Singapore, working with Prof. [Kenji Kawaguchi](https://ml.comp.nus.edu.sg/). In Fall 2025, I will join the [School of Data Science](https://sds.cuhk.edu.cn/en) at the Chinese University of Hong Kong, Shenzhen as an Assistant Professor.
+I am currently a Postdoc at the National University of Singapore, working with Prof. [Kenji Kawaguchi](https://ml.comp.nus.edu.sg/). In Fall 2025, I will join the Chinese University of Hong Kong, Shenzhen as an Assistant Professor.
 
 Previously, I was a research scientist at the AI Theory Group of [Huawei Noah’s Ark Lab](http://dev3.noahlab.com.hk/).
 I earned my Ph.D. in Statistics from Purdue University, under the supervision of Prof. [Guang Cheng](http://www.stat.ucla.edu/~guangcheng/). Prior to that, I completed my M.S. in Statistics from the University of Chicago and B.S. in Math from Tsinghua University.
