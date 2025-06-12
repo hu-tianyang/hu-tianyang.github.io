@@ -21,10 +21,10 @@ profiles:
     content: current_member.md
     image_circular: false # crops the image to make it circular
     more_info: >
-  
+
   - align: right
     image:
     content: former_member.md
     image_circular: false # crops the image to make it circular
-    more_info: > 
+    more_info: >
 ---
