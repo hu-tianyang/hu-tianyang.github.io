@@ -6,9 +6,9 @@ subtitle: Incoming Assisstant Professor, <a href="https://sds.cuhk.edu.cn/en">Sc
 
 profile:
   align: right
-  image: pic.jpg
+  image: sufe.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
+  more_info: <p style="font-size:11px;">Photo taken in 2023 at SUFE, thanks to Yixuan and Taiyun :)</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
