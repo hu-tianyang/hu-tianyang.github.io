@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Incoming Assisstant Professor, <a href="https://sds.cuhk.edu.cn/en">School of Data Science</a>, CUHK-Shenzhen.
+subtitle: Incoming Assistant Professor, <a href="https://sds.cuhk.edu.cn/en">School of Data Science</a>, CUHK-Shenzhen.
 
 profile:
   align: right
