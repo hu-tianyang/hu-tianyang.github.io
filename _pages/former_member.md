@@ -18,4 +18,4 @@
 
 - [Shuchen Xue](https://scholar.google.com/citations?user=aA70TOwAAAAJ), worked on diffusion sampling acceleration ([ICML 2024](https://proceedings.mlr.press/v235/ma24r.html), [CVPR 2024](https://openaccess.thecvf.com/content/CVPR2024/html/Xue_Accelerating_Diffusion_Sampling_with_Optimized_Time_Steps_CVPR_2024_paper.html)) and discrete diffusion models ([arXiv 2025](https://arxiv.org/abs/2506.19935)), while pursuing a PhD at the University of Chinese Academy of Sciences.
 
-- [Yihong Luo](https://luo-yihong.github.io/), worked on diffusion distillation ([ICLR 2025](https://openreview.net/forum?id=T7bmHkwzS6), [ICCV 2025](https://arxiv.org/abs/2503.06674)) and controllable generation ([ICCV 2025](https://arxiv.org/abs/2503.06652), [arXiv 2025](https://arxiv.org/abs/2503.13070)), while pursuing a PhD at HKUST.
+- [Yihong Luo](https://luo-yihong.github.io/), worked on diffusion distillation ([ICLR 2025](https://openreview.net/forum?id=T7bmHkwzS6), [ICCV 2025](https://arxiv.org/abs/2503.06674)) and controllable generation ([ICCV 2025](https://arxiv.org/abs/2503.06652), [NeurIPS 2025](https://arxiv.org/abs/2503.13070)), while pursuing a PhD at HKUST.
