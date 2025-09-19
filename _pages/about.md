@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Assistant Professor, <a href="https://sds.cuhk.edu.cn/en">School of Data Science</a>, The Chinese University of Hong Kong, Shenzhen.
+subtitle: Assistant Professor, <a href="https://sds.cuhk.edu.cn/en/teacher/2109">School of Data Science</a>, The Chinese University of Hong Kong, Shenzhen.
 
 profile:
   align: right
