@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: $^*$ denotes equal contribution.
+description: $^*$ denotes equal contribution. (α-β) denotes alphabetical order.
 nav: true
 nav_order: 2
 ---
