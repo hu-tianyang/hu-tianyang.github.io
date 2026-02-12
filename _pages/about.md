@@ -25,7 +25,7 @@ latest_posts:
 ---
 
 
-I was previously a Postdoctoral Fellow at the National University of Singapore, working with Prof. [Kenji Kawaguchi](https://ml.comp.nus.edu.sg/), and a Research Scientist in the AI Theory Group of [Huawei Noah’s Ark Lab](http://dev3.noahlab.com.hk/).
+I was previously a Postdoctoral Fellow at the National University of Singapore, working with Prof. [Kenji Kawaguchi](https://ml.comp.nus.edu.sg/), and a Research Scientist in the AI Theory Group of [Huawei Noah’s Ark Lab](https://www.noahlab.com.hk/).
 I received my Ph.D. in Statistics from Purdue University under the supervision of Prof. [Guang Cheng](http://www.stat.ucla.edu/~guangcheng/), after earning an M.S. in Statistics from the University of Chicago and a B.S. in Mathematics from Tsinghua University.
 
 My research focuses on the intersection of <strong>Statistics and AI</strong>, aiming to deepen the theoretical foundations of AI and design theory-inspired algorithms.
