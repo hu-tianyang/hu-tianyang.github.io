@@ -73,11 +73,20 @@ vision:
         venue: "ICLR 2024"
 
 language:
-  - label: "Mechanisms and architecture"
+  - label: "Mechanism & Architecture"
     papers:
       - title: "The Structural Origin of Attention Sink: Variance Discrepancy, Super Neurons, and Dimension Disparity"
         url: https://arxiv.org/abs/2605.06611
         venue: "ICML 2026"
+      - title: "SeedPrints: Fingerprints Can Even Tell Which Seed Your Large Language Model Was Trained From"
+        url: https://arxiv.org/abs/2509.26404
+        venue: "ICLR 2026"
+      - title: "PrefixMemory-Tuning: Modernizing Prefix-Tuning by Decoupling the Prefix from Attention"
+        url: https://arxiv.org/abs/2506.13674
+        venue: "ICLR 2026"
+      - title: "Exact Conversion of In-Context Learning to Model Weights in Linearized-Attention Transformers"
+        url: https://arxiv.org/abs/2406.02847
+        venue: "ICML 2024"
   - label: "Diffusion language models"
     papers:
       - title: "Any-Order GPT as Masked Diffusion Model: Decoupling Formulation and Architecture"
@@ -86,11 +95,3 @@ language:
       - title: "Variational Autoencoding Discrete Diffusion with Enhanced Dimensional Correlations Modeling"
         url: https://arxiv.org/abs/2505.17384
         venue: "ICLR 2026"
-  - label: "Memory mechanisms"
-    papers:
-      - title: "PrefixMemory-Tuning: Modernizing Prefix-Tuning by Decoupling the Prefix from Attention"
-        url: https://arxiv.org/abs/2506.13674
-        venue: "ICLR 2026"
-      - title: "Exact Conversion of In-Context Learning to Model Weights in Linearized-Attention Transformers"
-        url: https://arxiv.org/abs/2406.02847
-        venue: "ICML 2024"

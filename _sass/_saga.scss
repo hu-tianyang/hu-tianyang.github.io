@@ -1,4 +1,8 @@
 // Lab page only; use the site's existing light/dark theme variables.
+$saga-hub-center: 3rem;
+$saga-hub-height: 3.25rem;
+$saga-arrow-width: 2.5px;
+
 .saga-container {
   max-width: 1180px;
 }
@@ -85,8 +89,6 @@
 
   .saga-research-map {
     --saga-branch-gap: 1.5rem;
-    --saga-hub-center: 3rem;
-    --saga-hub-height: 3.25rem;
     margin: 1.5rem 0 0;
   }
 
@@ -134,7 +136,7 @@
     position: relative;
     flex: 1;
     align-self: center;
-    width: 1.5px;
+    width: $saga-arrow-width;
     min-height: 28px;
     background: var(--global-theme-color);
 
@@ -142,10 +144,10 @@
       position: absolute;
       top: 2px;
       left: 50%;
-      width: 6px;
-      height: 6px;
-      border-top: 1.5px solid var(--global-theme-color);
-      border-right: 1.5px solid var(--global-theme-color);
+      width: 7px;
+      height: 7px;
+      border-top: $saga-arrow-width solid var(--global-theme-color);
+      border-right: $saga-arrow-width solid var(--global-theme-color);
       transform: translateX(-50%) rotate(-45deg);
       content: "";
     }
@@ -203,10 +205,10 @@
     &::before {
       position: absolute;
       top: 0;
-      right: calc(25% - var(--saga-branch-gap) / 4 - 0.75px);
-      left: calc(25% - var(--saga-branch-gap) / 4 - 0.75px);
-      height: var(--saga-hub-center);
-      border: 1.5px solid var(--global-theme-color);
+      right: calc(25% - var(--saga-branch-gap) / 4 - #{$saga-arrow-width * 0.5});
+      left: calc(25% - var(--saga-branch-gap) / 4 - #{$saga-arrow-width * 0.5});
+      height: $saga-hub-center;
+      border: $saga-arrow-width solid var(--global-theme-color);
       border-top: 0;
       content: "";
     }
@@ -214,13 +216,13 @@
 
   .saga-map-hub {
     position: absolute;
-    top: var(--saga-hub-center);
+    top: $saga-hub-center;
     left: 50%;
     z-index: 1;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: var(--saga-hub-height);
+    height: $saga-hub-height;
     padding: 0 1.5rem;
     border: 2px solid var(--global-theme-color);
     box-sizing: border-box;
@@ -236,7 +238,9 @@
 
   .saga-map-flow {
     position: absolute;
-    top: calc(var(--saga-hub-center) + var(--saga-hub-height) / 2);
+    // Resolve geometry in Sass: production CSS minification strips required
+    // whitespace from calc() expressions that add CSS custom properties.
+    top: $saga-hub-center + $saga-hub-height * 0.5;
     bottom: 0;
     display: flex;
     align-items: center;
@@ -259,13 +263,13 @@
     position: absolute;
     top: 0;
     bottom: 0;
-    border-left: 1.5px solid var(--global-theme-color);
+    border-left: $saga-arrow-width solid var(--global-theme-color);
 
     &::after {
       position: absolute;
-      left: -0.75px;
-      width: 6px;
-      height: 6px;
+      left: $saga-arrow-width * -0.5;
+      width: 7px;
+      height: 7px;
       transform: translateX(-50%) rotate(45deg);
       content: "";
     }
@@ -282,8 +286,8 @@
 
       &::after {
         top: 2px;
-        border-left: 1.5px solid var(--global-theme-color);
-        border-top: 1.5px solid var(--global-theme-color);
+        border-left: $saga-arrow-width solid var(--global-theme-color);
+        border-top: $saga-arrow-width solid var(--global-theme-color);
       }
     }
   }
@@ -298,8 +302,8 @@
 
       &::after {
         bottom: 2px;
-        border-right: 1.5px solid var(--global-theme-color);
-        border-bottom: 1.5px solid var(--global-theme-color);
+        border-right: $saga-arrow-width solid var(--global-theme-color);
+        border-bottom: $saga-arrow-width solid var(--global-theme-color);
       }
     }
   }
@@ -466,14 +470,14 @@
       gap: 1.25rem;
       margin-left: 0.65rem;
       padding: 0 0 1.5rem 1.2rem;
-      border-left: 1.5px solid var(--global-theme-color);
+      border-left: $saga-arrow-width solid var(--global-theme-color);
 
       .saga-node::before {
         position: absolute;
         top: 2rem;
         left: -1.25rem;
         width: 1.25rem;
-        border-top: 1.5px solid var(--global-theme-color);
+        border-top: $saga-arrow-width solid var(--global-theme-color);
         content: "";
       }
     }
