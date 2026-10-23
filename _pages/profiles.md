@@ -13,9 +13,11 @@ polyadic_repository: "" # Add the open-source repository when available.
 <div class="saga-lab">
 
 <div class="saga-intro" markdown="1">
-**Science & Alchemy** captures our approach to generative AI: combining theoretical understanding with experimental exploration. We aim to turn empirical observations into explanations, and use those explanations to develop better models and algorithms.
+**SAGA Lab** is led by [**Tianyang Hu**]({{ '/' | relative_url }}) at the School of Data Science, The Chinese University of Hong Kong, Shenzhen.
 
-Our research connects **statistical and representation learning** with model design in **vision and language**. We study how models learn and use information, with an emphasis on **efficient pretraining, generation, and control**. Foundational insights guide our models, while practical challenges motivate new questions for theory.
+We study the principles and algorithms of **generative AI for language and vision**. Our research examines how representations, architectures, and learning dynamics shape model capabilities and efficiency. By combining statistical theory, mechanistic analysis, and empirical exploration, we aim to develop models that learn more efficiently, generate with less computation, and offer better control.
+
+**Science & Alchemy** reflects our approach: turning empirical observations into scientific understanding, and that understanding into better models.
 </div>
 
 <section class="saga-section" aria-labelledby="research">

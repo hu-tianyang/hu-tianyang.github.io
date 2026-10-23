@@ -26,9 +26,14 @@ latest_posts:
 ---
 
 
-My research develops **statistical foundations and algorithms** for modern AI. I study how representations, architectures, and learning dynamics shape model behavior, with an emphasis on **efficient learning and generation**.
+My research lies at the intersection of **Statistics and AI**. I develop **statistical foundations and algorithms** for modern AI, with an emphasis on **efficient learning and practical impact**. My interests include:
 
-I lead [**SAGA Lab**]({{ '/SAGA/' | relative_url }}) at CUHK-Shenzhen, where we combine theoretical analysis, mechanistic investigation, and empirical research to design better generative models for language and vision. Our current efforts include [**continuous diffusion language modeling**]({{ '/SAGA/#cdlm' | relative_url }}), building on our work in representation learning, Transformer mechanisms, and efficient diffusion generation.
+- Statistical Machine Learning
+- Representation Learning
+- Generative AI
+- Foundation Models
+
+I lead [**SAGA Lab**]({{ '/SAGA/' | relative_url }}) (Science & Alchemy in Generative AI), where we connect statistical foundations with model design in **language and vision**. A current focus is [**continuous diffusion language models (CDLMs)**]({{ '/SAGA/#cdlm' | relative_url }}), building on our work in representation learning, Transformer mechanisms, and efficient diffusion generation.
 
 **Join us.** I am recruiting **PhD and MPhil students** and **research assistants**. See [SAGA Lab openings]({{ '/SAGA/#join' | relative_url }}) for research opportunities and how to apply.
 
