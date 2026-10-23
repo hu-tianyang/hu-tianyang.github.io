@@ -29,7 +29,7 @@ This checkout builds its own image with Ruby 3.3 and the dependencies in
 docker compose up --build
 ```
 
-Wait for Jekyll to print `Server running`, then open <http://localhost:8080>.
+Wait for Jekyll to print `Server running`, then open `http://localhost:8080`.
 Markdown, bibliography, layout, and style changes rebuild automatically, and
 LiveReload refreshes the browser. After editing `_config.yml` or
 `_config.local.yml`, run `docker compose restart jekyll` in another terminal.
@@ -70,7 +70,7 @@ docker compose stop jekyll  # only if the Docker preview is running
 ./bin/preview
 ```
 
-Open <http://localhost:8080>. Native setup avoids Docker image downloads but
+Open `http://localhost:8080`. Native setup avoids Docker image downloads but
 still needs network access for initial dependency installation and browser CDN
 assets. Press Ctrl+C to stop; restart after changing either config file.
 
