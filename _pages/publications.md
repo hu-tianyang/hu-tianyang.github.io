@@ -7,7 +7,7 @@ nav: true
 nav_order: 2
 ---
 
-For selected work organized by research direction, visit [SAGA Lab]({{ '/people/#research' | relative_url }}).
+For selected work organized by research direction, visit [SAGA Lab]({{ '/SAGA/#research' | relative_url }}).
 
 <p class="small">* denotes equal contribution. (α–β) denotes alphabetical author order.</p>
 

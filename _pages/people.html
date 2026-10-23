@@ -1,0 +1,24 @@
+---
+layout: null
+permalink: /people/
+nav: false
+sitemap: false
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SAGA Lab</title>
+    <link rel="canonical" href="{{ '/SAGA/' | absolute_url }}">
+    <script>
+      window.location.replace({{ '/SAGA/' | relative_url | jsonify }} + window.location.search + window.location.hash);
+    </script>
+    <noscript>
+      <meta http-equiv="refresh" content="0; url={{ '/SAGA/' | relative_url }}">
+    </noscript>
+  </head>
+  <body>
+    <p>This page has moved to <a href="{{ '/SAGA/' | relative_url }}">SAGA Lab</a>.</p>
+  </body>
+</html>

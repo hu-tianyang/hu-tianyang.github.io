@@ -1,6 +1,6 @@
 ---
 layout: saga
-permalink: /people/
+permalink: /SAGA/
 title: SAGA Lab
 description: SAGA Lab at CUHK-Shenzhen connects statistical foundations with model design in vision and language, with a current focus on continuous diffusion language models.
 nav: true

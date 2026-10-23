@@ -26,17 +26,10 @@ latest_posts:
 ---
 
 
-My research lies at the intersection of <strong>Statistics and AI</strong>. I seek to advance the <strong>statistical and theoretical foundations of AI</strong> and translate these insights into methods with <strong>practical impact</strong>. My interests include:
+My research develops **statistical foundations and algorithms** for modern AI. I study how representations, architectures, and learning dynamics shape model behavior, with an emphasis on **efficient learning and generation**.
 
-<ul>
-  <li>Statistical Machine Learning</li>
-  <li>Representation Learning</li>
-  <li>Generative AI</li>
-  <li>Foundation Models</li>
-</ul>
+I lead [**SAGA Lab**]({{ '/SAGA/' | relative_url }}) at CUHK-Shenzhen, where we combine theoretical analysis, mechanistic investigation, and empirical research to design better generative models for language and vision. Our current efforts include [**continuous diffusion language modeling**]({{ '/SAGA/#cdlm' | relative_url }}), building on our work in representation learning, Transformer mechanisms, and efficient diffusion generation.
 
-I lead [<strong>SAGA Lab</strong>]({{ '/people/' | relative_url }}) (Science & Alchemy in Generative AI), where we connect statistical foundations with model design in **vision and language**. A current focus is [continuous diffusion language models (CDLMs)]({{ '/people/#cdlm' | relative_url }}), building on our work in continuous diffusion and autoregressive modeling.
-
-**Join us.** I am recruiting **PhD and MPhil students** and **research assistants**. See [SAGA Lab openings]({{ '/people/#join' | relative_url }}) for research opportunities and how to apply.
+**Join us.** I am recruiting **PhD and MPhil students** and **research assistants**. See [SAGA Lab openings]({{ '/SAGA/#join' | relative_url }}) for research opportunities and how to apply.
 
 Before joining CUHK-Shenzhen, I was a Postdoctoral Fellow at the National University of Singapore, working with Prof. [Kenji Kawaguchi](https://ml.comp.nus.edu.sg/), and a Research Scientist in the AI Theory Group of [Noah’s Ark Lab](https://www.noahlab.com.hk/). I received my Ph.D. in Statistics from Purdue University under the supervision of Prof. [Guang Cheng](https://datax.ucla.edu/people/guang-cheng), after earning an M.S. in Statistics from the University of Chicago and a B.S. in Mathematics from Tsinghua University.
