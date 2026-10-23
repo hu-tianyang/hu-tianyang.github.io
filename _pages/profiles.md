@@ -69,11 +69,11 @@ We study the principles and algorithms of **generative AI for language and visio
 <p class="saga-eyebrow">Recent focus</p>
 <h2 id="cdlm">Continuous Diffusion Language Models</h2>
 
-Continuous diffusion language models (CDLMs) generate text by **iteratively refining noisy continuous representations** and decoding the resulting states into tokens. Multiple token positions can evolve together, opening new ways to organize computation and coordinate language generation.
+Continuous diffusion language models (CDLMs) offer a promising path **beyond one-token-at-a-time generation**. Instead of committing to discrete tokens in sequence, they **jointly refine continuous representations** across multiple positions before decoding them into text. This opens a different design space for language modeling—one built around parallel computation and iterative revision.
 
-This direction naturally brings together our experience in **continuous diffusion and GPT-style autoregressive modeling**. We explore how continuous refinement and autoregressive context can complement each other, drawing on our work in representation learning, model mechanisms, and efficient generation.
+This direction brings together our experience in **continuous diffusion and autoregressive modeling**. We study how representations, architectures, and learning dynamics shape this refinement process, and how it can complement autoregressive context. Our goal is to turn these insights into **more capable, efficient, and controllable language models**.
 
-Our CDLM research contributes to **{% if page.polyadic_website and page.polyadic_website != "" %}[Polyadic Research Group]({{ page.polyadic_website }}){% else %}Polyadic Research Group{% endif %}**, a collaborative research collective co-initiated by [Tianyang Hu]({{ '/' | relative_url }}). Our vision is to develop **more capable, efficient, and controllable language models**. We study how representations, learning dynamics, and model design shape the refinement process, and use these insights to guide better training and sampling.
+Our work contributes to **{% if page.polyadic_website and page.polyadic_website != "" %}[Polyadic Research Group]({{ page.polyadic_website }}){% else %}Polyadic Research Group{% endif %}**, a collaborative research collective co-initiated by [Tianyang Hu]({{ '/' | relative_url }}). Together, we aim to advance this emerging paradigm through open models, shared tools, and reproducible research, while exploring its potential for reasoning.
 </div>
 </section>
 
