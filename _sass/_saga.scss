@@ -397,7 +397,7 @@ $saga-arrow-width: 2.5px;
     }
 
     li {
-      margin-bottom: 0.65rem;
+      margin-bottom: 1rem;
       font-size: 0.9rem;
 
       &:last-child {
@@ -409,6 +409,13 @@ $saga-arrow-width: 2.5px;
       display: block;
       color: var(--global-text-color-light);
       font-size: 0.82rem;
+    }
+
+    .saga-work-summary {
+      margin: 0.3rem 0 0;
+      color: var(--global-text-color);
+      font-size: 0.85rem;
+      line-height: 1.6;
     }
 
     .saga-related-empty {

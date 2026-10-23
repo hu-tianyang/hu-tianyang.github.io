@@ -14,6 +14,7 @@
               <li>
                 <a href="{{ work.url }}">{{ work.title }}</a>
                 {% if work.venue %}<span class="saga-work-venue">{{ work.venue }}</span>{% endif %}
+                {% if work.summary %}<p class="saga-work-summary">{{ work.summary | escape }}</p>{% endif %}
               </li>
             {% endfor %}
           </ul>
