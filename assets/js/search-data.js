@@ -14,7 +14,7 @@ ninja.data = [{
           description: "SAGA Lab at CUHK-Shenzhen connects statistical foundations with model design in vision and language, with a current focus on continuous diffusion language models.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/people/";
+            window.location.href = "/SAGA/";
           },
         },{id: "nav-papers",
           title: "Papers",
