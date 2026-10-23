@@ -1,0 +1,44 @@
+.about-page {
+  position: relative;
+
+  .profile .more-info {
+    font-family: inherit;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    color: var(--global-text-color-light);
+  }
+
+  h2 {
+    clear: both;
+    margin-top: 1.75rem;
+  }
+
+  .about-publications-note {
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
+  }
+
+  @media (max-width: 575px) {
+    .post-header {
+      min-height: 132px;
+      padding-right: 116px;
+    }
+
+    .post-title {
+      font-size: 2rem;
+    }
+
+    .profile {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 96px;
+      margin: 0;
+
+      .more-info {
+        display: none;
+      }
+    }
+
+  }
+}

@@ -5,7 +5,7 @@ title: CV
 nav: true
 nav_order: 5
 cv_pdf: # you can also use external links here
-description:
+description: Academic appointments and education.
 toc:
   sidebar: left
 ---

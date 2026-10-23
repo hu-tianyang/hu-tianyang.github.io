@@ -1,0 +1,50 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+cd "$ROOT"
+
+# Prefer the same Ruby minor version as CI without changing the user's shell.
+if command -v brew >/dev/null 2>&1; then
+    RUBY_PREFIX="$(brew --prefix ruby@3.3)"
+    export PATH="$RUBY_PREFIX/bin:$PATH"
+fi
+
+export GEM_HOME="$ROOT/vendor/preview-gems"
+export GEM_PATH="$GEM_HOME"
+export BUNDLE_PATH="$ROOT/vendor/bundle"
+export BUNDLE_USER_HOME="$ROOT/vendor/bundler-home"
+export BUNDLE_IGNORE_CONFIG=true
+export BUNDLE_FROZEN=true
+export JEKYLL_ENV=development
+export JUPYTER_CONFIG_DIR="$ROOT/vendor/preview-jupyter"
+export PATH="$GEM_HOME/bin:$ROOT/vendor/preview-venv/bin:$PATH"
+
+if ! ruby -e 'exit(RUBY_VERSION.start_with?("3.3.") ? 0 : 1)' 2>/dev/null; then
+    echo "Ruby 3.3 is required. On macOS: brew install ruby@3.3 node" >&2
+    exit 1
+fi
+if ! command -v node >/dev/null 2>&1; then
+    echo "Node.js is required by the JavaScript minifier. On macOS: brew install node" >&2
+    exit 1
+fi
+
+if [[ "${1:-}" == "setup" ]]; then
+    gem install bundler -v 2.6.2 --no-document
+    bundle _2.6.2_ install
+    if ! command -v jupyter >/dev/null 2>&1 || ! jupyter nbconvert --version >/dev/null 2>&1; then
+        python3 -m venv "$ROOT/vendor/preview-venv"
+        "$ROOT/vendor/preview-venv/bin/python" -m pip install nbconvert
+    fi
+    echo "Setup complete. Run ./bin/preview and open http://localhost:8080"
+    exit 0
+fi
+
+if ! bundle _2.6.2_ check || ! command -v jupyter >/dev/null 2>&1; then
+    echo "Preview dependencies are missing. Run ./bin/preview setup first." >&2
+    exit 1
+fi
+
+exec bundle _2.6.2_ exec jekyll serve \
+    --config _config.yml,_config.local.yml \
+    --host=127.0.0.1 --port=8080 --livereload "$@"

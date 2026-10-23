@@ -1,0 +1,568 @@
+// Lab page only; use the site's existing light/dark theme variables.
+.saga-container {
+  max-width: 1180px;
+}
+
+.saga-page {
+  display: grid;
+  grid-template-columns: 170px minmax(0, 1fr);
+  gap: 2.75rem;
+
+  #overview {
+    scroll-margin-top: 100px;
+  }
+}
+
+.saga-main {
+  min-width: 0;
+
+  .saga-hero {
+    margin: 0 0 1.75rem;
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.saga-outline {
+  position: sticky;
+  top: 100px;
+  align-self: start;
+  padding-top: 0.4rem;
+  font-size: 0.85rem;
+
+  .saga-outline-title {
+    margin: 0 0 0.85rem 1rem;
+    color: var(--global-text-color-light);
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+  }
+
+  a {
+    display: block;
+    padding: 0.6rem 1rem;
+    border-left: 2px solid var(--global-divider-color);
+    color: var(--global-text-color-light);
+    line-height: 1.4;
+
+    &:hover,
+    &:focus-visible {
+      color: var(--global-theme-color);
+      text-decoration: none;
+    }
+
+    &.is-active {
+      border-color: var(--global-theme-color);
+      background: var(--global-code-bg-color);
+      color: var(--global-theme-color);
+      font-weight: 600;
+    }
+  }
+}
+
+.saga-lab {
+  line-height: 1.7;
+
+  .saga-intro p:last-child {
+    margin-bottom: 0;
+  }
+
+  .saga-section {
+    margin-top: 2.75rem;
+  }
+
+  h2 {
+    margin-bottom: 1.15rem;
+    font-size: 1.65rem;
+    line-height: 1.35;
+    scroll-margin-top: 100px;
+  }
+
+  .saga-research-map {
+    --saga-branch-gap: 1.5rem;
+    --saga-hub-center: 3rem;
+    --saga-hub-height: 3.25rem;
+    margin: 1.5rem 0 0;
+  }
+
+  .saga-map-label {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin: 0;
+    padding: 0 0.6rem;
+    background: var(--global-bg-color);
+    color: var(--global-text-color-light);
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    transform: translateX(-50%);
+  }
+
+  .saga-branches {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--saga-branch-gap);
+  }
+
+  .saga-branch {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+  }
+
+  // Align the collapsed cards without stretching the shorter expanded lists.
+  .saga-branches:not(:has(details[open])) {
+    .saga-node {
+      flex: 1;
+    }
+
+    .saga-branch-stem {
+      flex: 0 0 28px;
+    }
+  }
+
+  .saga-branch-stem {
+    position: relative;
+    flex: 1;
+    align-self: center;
+    width: 1.5px;
+    min-height: 28px;
+    background: var(--global-theme-color);
+
+    &::before {
+      position: absolute;
+      top: 2px;
+      left: 50%;
+      width: 6px;
+      height: 6px;
+      border-top: 1.5px solid var(--global-theme-color);
+      border-right: 1.5px solid var(--global-theme-color);
+      transform: translateX(-50%) rotate(-45deg);
+      content: "";
+    }
+
+  }
+
+  .saga-node {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    padding: 1.4rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 8px;
+    background: var(--global-bg-color);
+    transition: border-color 160ms ease;
+
+    &:hover,
+    &:focus-within {
+      border-color: var(--global-theme-color);
+    }
+
+    h3 {
+      margin-bottom: 0.75rem;
+      font-size: 1.1rem;
+      font-weight: 600;
+      line-height: 1.4;
+    }
+
+    p {
+      margin-bottom: 1rem;
+      font-size: 0.95rem;
+    }
+
+    .saga-node-label {
+      margin-bottom: 0.45rem;
+      color: var(--global-theme-color);
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+    }
+  }
+
+  .saga-node--foundation {
+    border-top: 3px solid var(--global-theme-color);
+    background: var(--global-code-bg-color);
+  }
+
+  .saga-map-bridge {
+    position: relative;
+    height: 10rem;
+
+    // Align the two arms with the actual card centers at every width.
+    &::before {
+      position: absolute;
+      top: 0;
+      right: calc(25% - var(--saga-branch-gap) / 4 - 0.75px);
+      left: calc(25% - var(--saga-branch-gap) / 4 - 0.75px);
+      height: var(--saga-hub-center);
+      border: 1.5px solid var(--global-theme-color);
+      border-top: 0;
+      content: "";
+    }
+  }
+
+  .saga-map-hub {
+    position: absolute;
+    top: var(--saga-hub-center);
+    left: 50%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: var(--saga-hub-height);
+    padding: 0 1.5rem;
+    border: 2px solid var(--global-theme-color);
+    box-sizing: border-box;
+    border-radius: 999px;
+    background: var(--global-bg-color);
+    color: var(--global-theme-color);
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.3;
+    white-space: nowrap;
+    transform: translate(-50%, -50%);
+  }
+
+  .saga-map-flow {
+    position: absolute;
+    top: calc(var(--saga-hub-center) + var(--saga-hub-height) / 2);
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    width: calc(50% - 1.25rem);
+    box-sizing: border-box;
+  }
+
+  .saga-flow-label {
+    max-width: 14rem;
+    color: var(--global-text-color-light);
+    font-size: 0.8rem;
+    line-height: 1.4;
+
+    strong {
+      color: var(--global-text-color);
+    }
+  }
+
+  .saga-flow-line {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    border-left: 1.5px solid var(--global-theme-color);
+
+    &::after {
+      position: absolute;
+      left: -0.75px;
+      width: 6px;
+      height: 6px;
+      transform: translateX(-50%) rotate(45deg);
+      content: "";
+    }
+  }
+
+  .saga-map-flow--up {
+    left: 0;
+    justify-content: flex-end;
+    padding-right: 0.9rem;
+    text-align: right;
+
+    .saga-flow-line {
+      right: 0;
+
+      &::after {
+        top: 2px;
+        border-left: 1.5px solid var(--global-theme-color);
+        border-top: 1.5px solid var(--global-theme-color);
+      }
+    }
+  }
+
+  .saga-map-flow--down {
+    right: 0;
+    padding-left: 0.9rem;
+
+    .saga-flow-line {
+      left: 0;
+      border-left-style: dashed;
+
+      &::after {
+        bottom: 2px;
+        border-right: 1.5px solid var(--global-theme-color);
+        border-bottom: 1.5px solid var(--global-theme-color);
+      }
+    }
+  }
+
+  // Emphasize the shared connection when exploring the foundation.
+  .saga-research-map:has(.saga-node--foundation:hover),
+  .saga-research-map:has(.saga-node--foundation:focus-within) {
+    .saga-branches .saga-node {
+      border-color: var(--global-theme-color);
+    }
+  }
+
+  .saga-related-work {
+    margin-top: auto;
+    padding-top: 0.25rem;
+
+    summary {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.7rem;
+      padding: 0.35rem 0.7rem;
+      border: 1px solid var(--global-divider-color);
+      border-radius: 4px;
+      color: var(--global-theme-color);
+      background: var(--global-bg-color);
+      font-size: 0.85rem;
+      font-weight: 500;
+      line-height: 1.5;
+      list-style: none;
+      cursor: pointer;
+
+      &::-webkit-details-marker {
+        display: none;
+      }
+
+      &:hover {
+        border-color: var(--global-theme-color);
+      }
+
+      &:focus-visible {
+        outline: 2px solid var(--global-theme-color);
+        outline-offset: 3px;
+      }
+    }
+
+    .saga-disclosure-icon {
+      position: relative;
+      width: 10px;
+      height: 10px;
+
+      &::before,
+      &::after {
+        position: absolute;
+        top: 4px;
+        left: 0;
+        width: 10px;
+        height: 1.5px;
+        background: currentColor;
+        content: "";
+      }
+
+      &::after {
+        transform: rotate(90deg);
+      }
+    }
+
+    &[open] .saga-disclosure-icon::after {
+      transform: none;
+    }
+  }
+
+  .saga-related-content {
+    margin-top: 0.85rem;
+    padding-top: 0.85rem;
+    border-top: 1px solid var(--global-divider-color);
+
+    .saga-work-group + .saga-work-group {
+      margin-top: 1.25rem;
+    }
+
+    h4 {
+      margin-bottom: 0.65rem;
+      font-size: 0.9rem;
+      font-weight: 600;
+      line-height: 1.5;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 1.1rem;
+    }
+
+    li {
+      margin-bottom: 0.65rem;
+      font-size: 0.9rem;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    .saga-work-venue {
+      display: block;
+      color: var(--global-text-color-light);
+      font-size: 0.82rem;
+    }
+
+    .saga-related-empty {
+      margin: 0;
+      color: var(--global-text-color-light);
+      font-size: 0.85rem;
+    }
+  }
+
+  .saga-focus,
+  .saga-hiring {
+    margin-top: 2.5rem;
+    padding: 1.35rem 1.5rem;
+    border-left: 3px solid var(--global-theme-color);
+    background: var(--global-code-bg-color);
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .saga-eyebrow {
+    margin-bottom: 0.4rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: var(--global-theme-color);
+  }
+
+  // Keep the callout context visible when jumping from the section navigation.
+  #cdlm {
+    scroll-margin-top: 8.5rem;
+  }
+
+  #join {
+    scroll-margin-top: 6rem;
+  }
+
+  .saga-members {
+    h3 {
+      margin: 1.8rem 0 1rem;
+      font-size: 1.35rem;
+    }
+
+    h4 {
+      margin-top: 1.3rem;
+      font-size: 1.05rem;
+      font-weight: 600;
+    }
+
+    li {
+      margin-bottom: 0.65rem;
+    }
+  }
+
+  @media (max-width: 575px) {
+    .saga-branches {
+      grid-template-columns: 1fr;
+      gap: 1.25rem;
+      margin-left: 0.65rem;
+      padding: 0 0 1.5rem 1.2rem;
+      border-left: 1.5px solid var(--global-theme-color);
+
+      .saga-node::before {
+        position: absolute;
+        top: 2rem;
+        left: -1.25rem;
+        width: 1.25rem;
+        border-top: 1.5px solid var(--global-theme-color);
+        content: "";
+      }
+    }
+
+    .saga-branch-stem {
+      display: none;
+    }
+
+    .saga-map-bridge::before {
+      right: 50%;
+      left: 0.65rem;
+      border-right: 0;
+    }
+
+    .saga-node {
+      padding: 1.1rem;
+    }
+
+    .saga-focus,
+    .saga-hiring {
+      padding: 1.1rem;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .saga-page {
+    grid-template-columns: 145px minmax(0, 1fr);
+    gap: 1.75rem;
+  }
+
+  .saga-outline a {
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .saga-page {
+    display: block;
+
+    #overview {
+      scroll-margin-top: 130px;
+    }
+  }
+
+  .saga-outline {
+    top: 56px;
+    z-index: 20;
+    margin: -0.5rem -15px 1.75rem;
+    padding: 0 15px;
+    border-bottom: 1px solid var(--global-divider-color);
+    background: var(--global-bg-color);
+
+    .saga-outline-title {
+      display: none;
+    }
+
+    nav {
+      display: flex;
+      overflow-x: auto;
+    }
+
+    a {
+      flex: 0 0 auto;
+      padding: 0.8rem 0.7rem;
+      border-left: 0;
+      border-bottom: 2px solid transparent;
+      white-space: nowrap;
+    }
+  }
+
+  .saga-lab {
+    h2 {
+      scroll-margin-top: 120px;
+    }
+
+    #cdlm {
+      scroll-margin-top: 11.5rem;
+    }
+
+    #join {
+      scroll-margin-top: 9rem;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .saga-lab .saga-node {
+    transition: none;
+  }
+}

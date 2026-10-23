@@ -1,0 +1,96 @@
+# Selected work grouped by research direction and subtheme.
+# Each group has a label and papers with full titles, URLs, and concise venues.
+# Within each group, follow the Papers page order (newest first).
+foundations:
+  - label: "Statistical learning theory"
+    papers:
+      - title: "Minimax Optimal Deep Neural Network Classifiers Under Smooth Decision Boundary"
+        url: https://arxiv.org/abs/2207.01602
+        venue: "JMLR 2025"
+      - title: "Random Smoothing Regularization in Kernel Gradient Descent Learning"
+        url: https://arxiv.org/abs/2305.03531
+        venue: "JMLR 2024"
+      - title: "Exact Count of Boundary Pieces of ReLU Classifiers: Towards the Proper Complexity Measure for Classification"
+        url: https://arxiv.org/abs/2306.08805
+        venue: "UAI 2023"
+      - title: "Understanding Square Loss in Training Overparametrized Neural Network Classifiers"
+        url: https://arxiv.org/abs/2112.03657
+        venue: "NeurIPS 2022 · Spotlight"
+      - title: "Regularization Matters: A Nonparametric Perspective on Overparametrized Neural Network"
+        url: https://arxiv.org/abs/2007.02486
+        venue: "AISTATS 2021"
+  - label: "Representation learning"
+    papers:
+      - title: "Symmetric Divergence and Normalized Similarity: A Unified Topological Framework for Representation Analysis"
+        url: https://arxiv.org/abs/2606.06342
+        venue: "TMLR 2026"
+      - title: "Your Contrastive Learning Is Secretly Doing Stochastic Neighbor Embedding"
+        url: https://arxiv.org/abs/2205.14814
+        venue: "ICLR 2023"
+
+vision:
+  - label: "Efficient pretraining"
+    papers:
+      - title: "Elucidating the Design Space of Language Models for Image Generation"
+        url: https://arxiv.org/abs/2410.16257
+        venue: "ICML 2025"
+      - title: "Complexity Matters: Rethinking the Latent Space for Generative Modeling"
+        url: https://arxiv.org/abs/2307.08283
+        venue: "NeurIPS 2023 · Spotlight"
+  - label: "Efficient sampling"
+    papers:
+      - title: "Learning Few-Step Diffusion Models by Trajectory Distribution Matching"
+        url: https://arxiv.org/abs/2503.06674
+        venue: "ICCV 2025"
+      - title: "The Surprising Effectiveness of Skip-Tuning in Diffusion Sampling"
+        url: https://arxiv.org/abs/2402.15170
+        venue: "ICML 2024"
+      - title: "Accelerating Diffusion Sampling with Optimized Time Steps"
+        url: https://arxiv.org/abs/2402.17376
+        venue: "CVPR 2024"
+      - title: "Diff-Instruct: A Universal Approach for Transferring Knowledge From Pre-trained Diffusion Models"
+        url: https://arxiv.org/abs/2305.18455
+        venue: "NeurIPS 2023"
+  - label: "Control and preference alignment"
+    papers:
+      - title: "TDM-R1: Reinforcing Few-Step Diffusion Models with Non-Differentiable Reward"
+        url: https://arxiv.org/abs/2603.07700
+        venue: "ICML 2026"
+      - title: "Reinforcing Diffusion Models by Direct Group Preference Optimization"
+        url: https://arxiv.org/abs/2510.08425
+        venue: "ICLR 2026"
+      - title: "Noise Consistency Training: A Native Approach for One-step Generator in Learning Additional Controls"
+        url: https://arxiv.org/abs/2506.19741
+        venue: "NeurIPS 2025"
+      - title: "Reward-Instruct: A Reward-Centric Approach to Fast Photo-Realistic Image Generation"
+        url: https://arxiv.org/abs/2503.13070
+        venue: "NeurIPS 2025"
+      - title: "Referee Can Play: An Alternative Approach to Conditional Generation via Model Inversion"
+        url: https://arxiv.org/abs/2402.16305
+        venue: "ICML 2024"
+      - title: "Elucidating the Design Space of Classifier-Guided Diffusion Generation"
+        url: https://arxiv.org/abs/2310.11311
+        venue: "ICLR 2024"
+
+language:
+  - label: "Mechanisms and architecture"
+    papers:
+      - title: "The Structural Origin of Attention Sink: Variance Discrepancy, Super Neurons, and Dimension Disparity"
+        url: https://arxiv.org/abs/2605.06611
+        venue: "ICML 2026"
+  - label: "Diffusion language models"
+    papers:
+      - title: "Any-Order GPT as Masked Diffusion Model: Decoupling Formulation and Architecture"
+        url: https://arxiv.org/abs/2506.19935
+        venue: "ICML 2026 · Oral"
+      - title: "Variational Autoencoding Discrete Diffusion with Enhanced Dimensional Correlations Modeling"
+        url: https://arxiv.org/abs/2505.17384
+        venue: "ICLR 2026"
+  - label: "Memory mechanisms"
+    papers:
+      - title: "PrefixMemory-Tuning: Modernizing Prefix-Tuning by Decoupling the Prefix from Attention"
+        url: https://arxiv.org/abs/2506.13674
+        venue: "ICLR 2026"
+      - title: "Exact Conversion of In-Context Learning to Model Weights in Linearized-Attention Transformers"
+        url: https://arxiv.org/abs/2406.02847
+        venue: "ICML 2024"

@@ -1,6 +1,13 @@
-#### Former Members:
+### Former Members
 
-##### Reseach Interns at Huawei Noah's Ark Lab.
+#### Research Assistants
+{: #former-research-assistants }
+
+- [Siquan Li](https://scholar.google.com/citations?user=XWRIvqMAAAAJ), worked on understanding and improving LLMs ([ICLR 2026](https://arxiv.org/abs/2506.13674 "PrefixMemory-Tuning: Modernizing Prefix-Tuning by Decoupling the Prefix from Attention"), [ICLR 2026](https://arxiv.org/abs/2509.26404 "SeedPrints: Fingerprints Can Even Tell Which Seed Your Large Language Model Was Trained From"), [ICML 2026](https://arxiv.org/abs/2605.06611 "The Structural Origin of Attention Sink: Variance Discrepancy, Super Neurons, and Dimension Disparity")), while pursuing a master's degree at the National University of Singapore. Now in the B2C LLM group at Tonghuashun (同花顺).
+
+#### Research Interns at Noah's Ark Lab
+
+Research interns advised by Tianyang Hu during his time at Noah's Ark Lab. The affiliations below refer to the period of the internship.
 
 - [Yihong Luo](https://luo-yihong.github.io/), worked on diffusion distillation ([ICLR 2025](https://openreview.net/forum?id=T7bmHkwzS6), [ICCV 2025](https://arxiv.org/abs/2503.06674)) and controllable generation ([ICCV 2025](https://arxiv.org/abs/2503.06652), [NeurIPS 2025](https://arxiv.org/abs/2506.19741), [NeurIPS 2025](https://arxiv.org/abs/2503.13070)), while pursuing a PhD at HKUST.
 

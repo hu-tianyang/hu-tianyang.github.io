@@ -1,15 +1,15 @@
 ---
 layout: page
 permalink: /publications/
-title: Publications
-description: $^*$ denotes equal contribution. (α-β) denotes alphabetical order.
+title: Papers
+description: Research papers, including preprints, listed by year.
 nav: true
 nav_order: 2
 ---
 
-<!-- _pages/publications.md -->
+For selected work organized by research direction, visit [SAGA Lab]({{ '/people/#research' | relative_url }}).
 
-<!-- Bibsearch Feature -->
+<p class="small">* denotes equal contribution. (α–β) denotes alphabetical author order.</p>
 
 {% include bib_search.liquid %}
 

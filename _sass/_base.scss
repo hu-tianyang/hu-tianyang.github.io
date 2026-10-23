@@ -247,7 +247,7 @@ ul.task-list input[type="checkbox"] {
   box-shadow: none;
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
-  opacity: 0.95;
+  opacity: 1;
 }
 
 .navbar .dropdown-menu {
@@ -1093,9 +1093,7 @@ nav[data-toggle="toc"] {
 @media (max-width: 576px) {
   /* override stickyness so that the navigation does not follow scrolling */
   nav[data-toggle="toc"] {
-    visibility: hidden;
-    height: 0;
-    top: 0;
+    display: none;
   }
 }
 

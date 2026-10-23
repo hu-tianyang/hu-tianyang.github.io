@@ -1,0 +1,19 @@
+- title: Designing Transformers for Continuous Diffusion Language Models
+  topic: Architecture design
+  paper_url: https://arxiv.org/abs/2610.22330
+  date: '2026-10-15'
+  summary: >-
+    LangDiT redesigns the transformer backbone for continuous diffusion language
+    modeling, improving generation while retaining the underlying token
+    representation, training objective, and sampler.
+
+# Titles confirmed by Tianyang; add paper_url and date once verified.
+- title: Understanding and Enabling Score Distillation in Continuous Diffusion Language Models
+  topic: Sampling acceleration and distillation
+  summary: >-
+    We adapt score-based distribution matching to continuous diffusion language
+    models, addressing categorical prediction and sample-diversity challenges
+    to enable one-step and few-step generation.
+
+- title: The Generative Gap Between Speculative Drafter and Continuous Diffusion Language Model
+  topic: Speculative drafting and generation

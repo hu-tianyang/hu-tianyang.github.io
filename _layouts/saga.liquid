@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<div class="saga-page">
+  <aside class="saga-outline" aria-label="Page outline">
+    <p class="saga-outline-title">On this page</p>
+    <nav data-saga-outline aria-label="Lab sections">
+      <a href="#overview">Overview</a>
+      <a href="#research">Research directions</a>
+      <a href="#cdlm">CDLM</a>
+      <a href="#join">Join us</a>
+      <a href="#members">Members</a>
+    </nav>
+  </aside>
+
+  <div class="post saga-main">
+    <header class="post-header saga-hero" id="overview">
+      <h1 class="sr-only">{{ page.title }}</h1>
+      <img src="{{ '/assets/img/saga-lab-banner.png' | relative_url }}" width="2172" height="724" alt="SAGA Lab: Science &amp; Alchemy in Generative AI. Statistical foundations connect vision and language research." loading="eager" fetchpriority="high" decoding="async">
+    </header>
+    <article>{{ content }}</article>
+  </div>
+</div>
+<script defer src="{{ '/assets/js/saga-lab.js' | relative_url | bust_file_cache }}"></script>

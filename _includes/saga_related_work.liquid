@@ -1,0 +1,26 @@
+{% assign groups = site.data.saga_related_work[include.direction] %}
+<details class="saga-related-work">
+  <summary>
+    Selected work<span class="sr-only"> in {{ include.label }}</span>
+    <span class="saga-disclosure-icon" aria-hidden="true"></span>
+  </summary>
+  <div class="saga-related-content">
+    {% if groups.size > 0 %}
+      {% for group in groups %}
+        <div class="saga-work-group">
+          <h4>{{ group.label }}</h4>
+          <ul>
+            {% for work in group.papers %}
+              <li>
+                <a href="{{ work.url }}">{{ work.title }}</a>
+                {% if work.venue %}<span class="saga-work-venue">{{ work.venue }}</span>{% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endfor %}
+    {% else %}
+      <p class="saga-related-empty">Selected work will be added here.</p>
+    {% endif %}
+  </div>
+</details>

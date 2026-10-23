@@ -1,0 +1,15 @@
+# Development-only overrides. Production builds continue to use _config.yml.
+url: http://localhost:8080
+baseurl: ""
+
+# Avoid fetching the theme's demo feeds on every rebuild.
+external_sources: []
+
+# Use original images while editing; production still generates responsive images.
+imagemagick:
+  enabled: false
+
+# Avoid build-time requests for citation counts.
+enable_publication_badges:
+  google_scholar: false
+  inspirehep: false

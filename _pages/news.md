@@ -1,6 +1,7 @@
 ---
 layout: page
-title: news
+title: News archive
+description: Earlier research announcements, talks, and milestones.
 permalink: /news/
 ---
 

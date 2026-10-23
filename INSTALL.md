@@ -2,6 +2,7 @@
 
 - [Table of Contents](#table-of-contents)
 - [Installing and Deploying](#installing-and-deploying)
+  - [Preview this repository](#preview-this-repository)
   - [Recommended Approach](#recommended-approach)
   - [Local setup on Windows](#local-setup-on-windows)
   - [Local setup using Docker (Recommended)](#local-setup-using-docker-recommended)
@@ -18,6 +19,60 @@
   - [Upgrading from a previous version](#upgrading-from-a-previous-version)
 
 # Installing and Deploying
+
+## Preview this repository
+
+This checkout builds its own image with Ruby 3.3 and the dependencies in
+`Gemfile.lock`. Start Docker Desktop, then run from the repository root:
+
+```bash
+docker compose up --build
+```
+
+Wait for Jekyll to print `Server running`, then open <http://localhost:8080>.
+Markdown, bibliography, layout, and style changes rebuild automatically, and
+LiveReload refreshes the browser. After editing `_config.yml` or
+`_config.local.yml`, run `docker compose restart jekyll` in another terminal.
+Press Ctrl+C to stop. Subsequent sessions can use `docker compose up`; rebuild
+after changing the Dockerfile, Gemfile, or Gemfile.lock.
+
+`_config.local.yml` skips external demo posts, citation-count requests, and image
+conversion for faster editing. Images use the original files. Production builds
+still use `_config.yml`. Browser-side CDN assets still require internet access.
+
+If the image build fails at `load metadata for ... ruby` with `EOF` or a timeout,
+Docker cannot reach the image registry; Jekyll has not started yet. Repeatedly
+restarting the old container will not fix that. Also avoid the generic slim image
+for this checkout: its installed gems may differ from this repository's lockfile.
+
+For a preview **without Docker**, use the native launcher. On macOS, install
+Ruby 3.3 and Node.js once, then install this repository's dependencies:
+
+```bash
+brew install ruby@3.3 node
+./bin/preview setup
+```
+
+The setup command installs Bundler 2.6.2 and locked Ruby gems under the ignored
+`vendor/` directory. It keeps native dependencies separate from Docker and
+leaves `Gemfile.lock` intact. The launcher selects Homebrew Ruby 3.3 without
+changing your shell settings or the macOS system Ruby; see the
+[official macOS setup guide](https://jekyllrb.com/docs/installation/macos/).
+The notebook plugin also converts `assets/jupyter/blog.ipynb`. If a working
+`jupyter nbconvert` is not already available, setup uses Python 3 with `venv`
+to install it under `vendor/preview-venv/`.
+
+For each editing session, stop Docker's preview to free port 8080 if needed,
+then run:
+
+```bash
+docker compose stop jekyll  # only if the Docker preview is running
+./bin/preview
+```
+
+Open <http://localhost:8080>. Native setup avoids Docker image downloads but
+still needs network access for initial dependency installation and browser CDN
+assets. Press Ctrl+C to stop; restart after changing either config file.
 
 ## Recommended Approach
 
@@ -43,37 +98,21 @@ If you are using Windows, it is **highly recommended** to use [Windows Subsystem
 
 ## Local setup using Docker (Recommended)
 
-Using Docker to install Jekyll and Ruby dependencies is the easiest way.
-
-You need to take the following steps to get `al-folio` up and running on your local machine:
-
-- First, install [docker](https://docs.docker.com/get-docker/) and [docker-compose](https://docs.docker.com/compose/install/).
-- Finally, run the following command that will pull the latest pre-built image from DockerHub and will run your website.
-
-```bash
-$ docker compose pull
-$ docker compose up
-```
-
-Note that when you run it for the first time, it will download a docker image of size 400MB or so. To see the template running, open your browser and go to `http://localhost:8080`. You should see a copy of the theme's demo website.
-
-Now, feel free to customize the theme however you like (don't forget to change the name!). Also, your changes should be automatically rendered in real-time (or maybe after a few seconds).
-
-> Beta: You can also use the slimmed docker image with a size below 100MBs and exact same functionality. Just use `docker compose -f docker-compose-slim.yml up`
+Install [Docker Desktop](https://docs.docker.com/get-docker/), then follow
+[Preview this repository](#preview-this-repository). This checkout uses its own
+image rather than the upstream prebuilt or slim images so that installed gems
+match `Gemfile.lock`.
 
 ### Build your own docker image
 
-> Note: this approach is only necessary if you would like to build an older or very custom version of al-folio.
-
-Build and run a new docker image using:
+Build and run this repository's image using:
 
 ```bash
 $ docker compose up --build
 ```
 
-> If you want to update jekyll, install new ruby packages, etc., all you have to do is build the image again using `--force-recreate` argument at the end of the previous command! It will download Ruby and Jekyll and install all Ruby packages again from scratch.
-
-If you want to use a specific docker version, you can do so by changing `latest` tag to `your_version` in `docker-compose.yaml`. For example, you might have created your website on `v0.10.0` and you want to stick with that.
+Rebuild after dependency changes. `--force-recreate` only recreates containers;
+`--build` rebuilds the image, reusing unchanged build layers.
 
 ## Local Setup with Development Containers
 
@@ -81,6 +120,9 @@ If you want to use a specific docker version, you can do so by changing `latest`
 For example, when you open the repository with Visual Studio Code (VSCode), it prompts you to install the necessary extension and automatically install everything necessary.
 
 ## Local Setup (Legacy, no longer supported)
+
+The heading below is retained from the upstream template. For this checkout,
+use the supported native launcher in [Preview this repository](#preview-this-repository).
 
 For a hands-on walkthrough of running al-folio locally without using Docker, check out [this cool blog post](https://george-gca.github.io/blog/2022/running-local-al-folio/) by one of the community members!
 
