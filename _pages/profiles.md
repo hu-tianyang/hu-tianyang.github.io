@@ -5,7 +5,7 @@ title: SAGA Lab
 description: SAGA Lab at CUHK-Shenzhen connects statistical foundations with model design in vision and language, with a current focus on continuous diffusion language models.
 nav: true
 nav_order: 1
-polyadic_website: "" # Add the Polyadic Research Group website when available.
+polyadic_website: "https://pkulwj1994.github.io/polyadic-research/"
 polyadic_repository: "" # Add the open-source repository when available.
 ---
 

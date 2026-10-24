@@ -33,7 +33,7 @@ My research lies at the intersection of **Statistics and AI**. I develop **stati
 - Generative AI
 - Foundation Models
 
-I lead [**SAGA Lab**]({{ '/SAGA/' | relative_url }}) at CUHK-Shenzhen, where we combine theoretical analysis, mechanistic investigation, and empirical research to develop better generative models for vision and language. A current focus is [**continuous diffusion language modeling**]({{ '/SAGA/#cdlm' | relative_url }}). I also co-initiated **Polyadic Research Group**, a collaborative research collective advancing this direction through model development and open, reproducible research.
+I lead [**SAGA Lab**]({{ '/SAGA/' | relative_url }}) at CUHK-Shenzhen, where we combine theoretical analysis, mechanistic investigation, and empirical research to develop better generative models for vision and language. A current focus is [**continuous diffusion language modeling**]({{ '/SAGA/#cdlm' | relative_url }}). I also co-initiated [**Polyadic Research Group**](https://pkulwj1994.github.io/polyadic-research/), a collaborative research collective advancing this direction through model development and open, reproducible research.
 
 **Join us.** I am recruiting **PhD and MPhil students** and **research assistants**. See [SAGA Lab openings]({{ '/SAGA/#join' | relative_url }}) for research opportunities and how to apply.
 

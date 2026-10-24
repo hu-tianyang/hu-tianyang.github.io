@@ -23,5 +23,5 @@
 - Jiayi Han, undergrad student from CUHK-Shenzhen.
 - Yujian Chen, undergrad student from Peking University.
 - Mingzhi Zhang, undergrad student from Peking University.
-- Zhiyuan Liu, undergrad student from Peking University.
+- Zhiyuan Yang, undergrad student from Peking University.
 - Xinlang Cai, undergrad student from Peking University.
