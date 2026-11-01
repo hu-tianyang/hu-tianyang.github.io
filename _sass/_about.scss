@@ -1,6 +1,38 @@
 .about-page {
   position: relative;
 
+  .about-background a {
+    color: var(--global-text-color);
+  }
+
+  .profile {
+    max-width: 240px;
+    margin-left: 1.5rem;
+    margin-bottom: 0.75rem;
+
+    figure {
+      margin: 0;
+    }
+
+    picture {
+      display: block;
+      overflow: hidden;
+      aspect-ratio: 4 / 5;
+      border-radius: 0.4rem;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
+    }
+
+    .about-portrait {
+      display: block;
+      aspect-ratio: 4 / 5;
+      object-fit: cover;
+      object-position: 50% 28%;
+      // Frame the face and upper torso while keeping the full source photo.
+      transform: scale(1.65);
+      transform-origin: 50% 28%;
+    }
+  }
+
   .profile .more-info {
     font-family: inherit;
     font-size: 0.75rem;

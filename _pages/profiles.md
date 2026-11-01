@@ -69,7 +69,7 @@ We study the principles and algorithms of **generative AI for language and visio
 <p class="saga-eyebrow">Recent focus</p>
 <h2 id="cdlm">Continuous Diffusion Language Models</h2>
 
-Continuous diffusion language models (CDLMs) offer a promising path **beyond one-token-at-a-time generation**. Instead of committing to discrete tokens in sequence, they **jointly refine continuous representations** across multiple positions before decoding them into text. This opens a different design space for language modeling—one built around parallel computation and iterative revision.
+Continuous diffusion language models (CDLMs) offer a promising path **beyond one-token-at-a-time generation**. Instead of committing to discrete tokens in sequence, they **jointly refine continuous representations** across multiple positions before decoding them into text. This opens a different design space for language modeling—one built around parallel computation and iterative revision. For an introduction, see our Polyadic blog post [CDLM for Dummies](https://pkulwj1994.github.io/polyadic-research/posts/cdlm-for-dummies/index.html).
 
 This direction brings together our experience in **continuous diffusion and autoregressive modeling**. We study how representations, architectures, and learning dynamics shape this refinement process, and how it can complement autoregressive context. Our goal is to turn these insights into **more capable, efficient, and controllable language models**.
 

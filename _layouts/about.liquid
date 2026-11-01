@@ -22,10 +22,9 @@ layout: default
           {% if page.profile.image_circular %}
             {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
           {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
+            {% assign profile_image_class = 'img-fluid about-portrait' %}
           {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
+          {% capture sizes %}(min-width: 830px) 240px, (min-width: 576px)
       30vw, 96px{% endcapture %}
           {% assign profile_image_alt = page.profile.image_alt | default: site.first_name %}
           {%

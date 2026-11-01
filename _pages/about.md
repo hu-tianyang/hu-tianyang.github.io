@@ -6,10 +6,9 @@ subtitle: Assistant Professor, <a href="https://sds.cuhk.edu.cn/en/teacher/2109"
 
 profile:
   align: right
-  image: sufe.jpg
-  image_alt: Tianyang Hu presenting at SUFE in 2023
+  image: tianyang-hu-2026.jpg
+  image_alt: Portrait of Tianyang Hu
   image_circular: false # crops the image to make it circular
-  more_info: <p>At SUFE, 2023. With thanks to Yixuan and Taiyun.</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # Includes contact and profile links at the bottom of the page.
@@ -33,8 +32,9 @@ My research lies at the intersection of **Statistics and AI**. I develop **stati
 - Generative AI
 - Foundation Models
 
-I lead [**SAGA Lab**]({{ '/SAGA/' | relative_url }}) at CUHK-Shenzhen, where we combine theoretical analysis, mechanistic investigation, and empirical research to develop better generative models for vision and language. A current focus is [**continuous diffusion language modeling**]({{ '/SAGA/#cdlm' | relative_url }}). I also co-initiated [**Polyadic Research Group**](https://pkulwj1994.github.io/polyadic-research/), a collaborative research collective advancing this direction through model development and open, reproducible research.
+I lead [**SAGA Lab**]({{ '/SAGA/' | relative_url }}) at CUHK-Shenzhen, where we combine theoretical analysis, mechanistic investigation, and empirical research to develop better generative models for vision and language. A current focus is [continuous diffusion language modeling]({{ '/SAGA/#cdlm' | relative_url }}). I also co-initiated [Polyadic Research Group](https://pkulwj1994.github.io/polyadic-research/), a collaborative research collective advancing this direction through model development and open, reproducible research.
 
 **Join us.** I am recruiting **PhD and MPhil students** and **research assistants**. See [SAGA Lab openings]({{ '/SAGA/#join' | relative_url }}) for research opportunities and how to apply.
 
 Before joining CUHK-Shenzhen, I was a Postdoctoral Fellow at the National University of Singapore, working with Prof. [Kenji Kawaguchi](https://ml.comp.nus.edu.sg/), and a Research Scientist in the AI Theory Group of [Noah’s Ark Lab](https://www.noahlab.com.hk/). I received my Ph.D. in Statistics from Purdue University under the supervision of Prof. [Guang Cheng](https://datax.ucla.edu/people/guang-cheng), after earning an M.S. in Statistics from the University of Chicago and a B.S. in Mathematics from Tsinghua University.
+{: .about-background }
