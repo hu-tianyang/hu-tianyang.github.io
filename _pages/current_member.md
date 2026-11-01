@@ -18,6 +18,7 @@
 - Chenhe Yang, master student from CUHK-Shenzhen.
 - Haozhe Zhu, master student from CUHK-Shenzhen.
 - Yihao Shen, undergrad student from CUHK-Shenzhen.
+- Weiqi Sun, undergrad student from CUHK-Shenzhen.
 - Ruixi Chen, undergrad student from CUHK-Shenzhen.
 - Yulei Sun, undergrad student from CUHK-Shenzhen.
 - Jiayi Han, undergrad student from CUHK-Shenzhen.
